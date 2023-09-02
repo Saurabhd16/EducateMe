@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>sign in</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="more">
+      <h2>Login</h2>
+      <form>
+        <div class="input-box">
+          <input type="email" required id="login_email">
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <input type="password" required id="login_password">
+          <label>Password</label>
+        </div>
+      </form>
+      <div class="containt">
+        <div class="remember-me">
+          <label>Remember me</label>
+          <input type="checkbox">
+        </div>
+        <div class="forgot-password">
+          <h4><a href="#">Forgot Password?</a></h4>
+        </div>
+      </div>
+      <a href="learning.html"><button type="submit" id="login">Login</button>
+    </div>
+    <div class="newregister">
+      <div class="new_data">
+     <h1>New Here?</h1>
+     <p>Sign Up and discover a great amout of new opportunities</p>
+    <a href="signup.html"><button type="submit" class="signup" id="showSignup">Sign Up</button></a>
+    </div>
+    <script src="login.js" type="module"></script>
+    <script>
+  const signupButton = document.getElementById('showSignup');
+  const signupContainer = document.getElementById('signupContainer');
+
+  signupButton.addEventListener('click', () => {
+    signupContainer.style.display = 'block'; // Show the signup container
+  });
+</script>
+</body>
+</html>
