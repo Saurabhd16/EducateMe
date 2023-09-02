@@ -103,10 +103,12 @@ a{
  font-size: 28px;
  font-weight: 700;
  margin-bottom: 5px;
+ color:white;
 }
 .newregister p{
   font-size: 15px;
   font-weight: 200;
+  color:white;
 }
 .signup{
   color:white;
