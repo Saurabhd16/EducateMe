@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>E-learning</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <section class="first-page">
+    <header class="nav-bar">
+      <h2 class="logo">E-ducateMe</h2>
+      <input type="checkbox" id="check">
+      <label for="check" id="checkbtn"><i class="fa-solid fa-bars" style="color:white"></i></label>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="#Contact">Contact us</a>
+        <a href="#AboutUs">About us</a>
+        <a href="#Courses">Courses</a>
+        <a href="login.html" id="signin">Join Us</a>
+      </nav>
+    </header>
+    <div class="container slide pic">
+      <div class="content exp-2">
+        <h1 style="font-weight: 600px;">Best E-learning Website</h1>
+        <p style="font-weight:400px;">Embark on a journey of exploration with E-ducate Me, where you can prepare for
+          exams, delve into web development, and master the intricacies of DSA. Uncover your true potential today!"</p>
+        <button type="submit" class="enroll">Enroll</button>
+      </div>
+    </div>
+    <div class="container slide">
+      <div class="content">
+        <h1>New to website</h1>
+        <p>Experience the future of learning at EducateMe. Your gateway to growth, innovation, and success is just a
+          click away</p>
+        <img src="images/new.jpg" class="pic3">
+      </div>
+    </div>
+    <div class="container slide pic2">
+      <div class="content">
+        <h1>Small steps lead to great heights</h1>
+        <p> Invest 5-10 minutes each day in your learning journey with us. Keep moving forward and watch your potential
+          soar."</p>
+      </div>
+    </div>
+    <button class="prev" onclick="changeSlide(-1)">&lt;</button>
+    <button class="next" onclick="changeSlide(1)">></button>
+  </section>
+  <section class="second-page">
+    <h2 id="Courses">Courses We Offer</h2>
+    <p>Enroll the courses and achieve your dreams</p>
+    <div class="data">
+      <div class="coloum exam">
+        <img src="images/exam2.jpg">
+        <a href="Exam.html"><button type="button" class="Explore">Explore Now</button></a>
+      </div>
+      <div class="coloum web">
+        <img src="images/exam.jpg">
+        <a href="web.html"> <button type="button" class="Explore">Explore Now</button></a>
+      </div>
+      <div class="coloum DSA">
+        <img src="images/DSA.jpg">
+        <a href="DSA.html"><button type="button" class="Explore">Explore Now</button></a>
+      </div>
+    </div>
+  </section>
+  <section class="about-us">
+    <h2 id="AboutUs">About Us</h2>
+    <div class="aboutcont">
+      <div class="aboutdata text-data">
+        <h1>We are Best E-learning Platform</h1>
+        <p>Welcome to E-ducateMe, your ultimate destination for transformative learning and skill development. We are a
+          passionate team of educators and industry professionals dedicated to empowering learners worldwide. Our
+          mission is to provide accessible, high-quality education in the fields of computer engineering, web
+          development, and data structures and algorithms.
+          At E-ducateME, we believe in the power of knowledge and its ability to unlock endless possibilities. Our
+          platform is carefully curated to cater to the needs of aspiring computer engineers, students, and
+          professionals alike.</p>
+        <a href="learning.html"><button type="submit" class="Explore">Explore Now</button></a>
+      </div>
+      <div class="aboutdata img-data">
+        <img src="images/about_us.jpg">
+      </div>
+    </div>
+  </section>
+  <section class="third-page">
+    <div class="review">
+      <h1>Top review from users</h1>
+      <div class="review-data">
+        <img src="images/img1.jpg" alt="">
+        <h3>Review</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusantium ratione quod! Eligendi sequi fuga
+          fugit possimus nemo, illum provident quaerat amet ipsum sed. Voluptatibus nihil ratione hic sed quas?</p>
+      </div>
+      <div class="review-data">
+        <img src="images/img3.jpg" alt="">
+        <h3>Review</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusantium ratione quod! Eligendi sequi fuga
+          fugit possimus nemo, illum provident quaerat amet ipsum sed. Voluptatibus nihil ratione hic sed quas?</p>
+      </div>
+      <div class="review-data">
+        <img src="images/img2.jpg" alt="">
+        <h3>Review</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusantium ratione quod! Eligendi sequi fuga
+          fugit possimus nemo, illum provident quaerat amet ipsum sed. Voluptatibus nihil ratione hic sed quas?</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="last">
+      <div class="text-items">
+        <h2 id="Contact" style="font-size: 40px; margin-bottom: 20px;">E-ducateMe</h2>
+      </div>
+      <div class="text-items">
+        <i class="fa-brands fa-facebook fa-lg"></i>
+        <i class="fa-brands fa-instagram fa-lg"></i>
+        <i class="fa-brands fa-linkedin fa-lg"></i>
+        <i class="fa-brands fa-twitter fa-lg"></i>
+      </div>
+      <div class="text-items items3">
+        <i class="fa-sharp fa-solid fa-location-dot fa-lg"></i>
+        <span>mumbai,maharashtra</span>
+        <i class="fa-solid fa-phone fa-lg"></i>
+        <span>+91-4556-324-345</span>
+        <i class="fa-regular fa-envelope fa-lg"></i>
+        <span>saurabh@gmail.com</span>
+      </div>
+      <div class="text-items">
+        <h3>copyright © 2021 Created By Saurabh Dubey All Rights Reserved.</h3>
+      </div>
+      <div class="items2">
+        <h2>Our Newsletter </h2>
+        <br>
+        <p style="font-size: 15px;">Enter Your Email to get our News and updates.</p>
+        <br>
+        <input type="text" placeholder="Enter your Email" class="search"></input>
+        <button type="submit" class="search-btn">submit</button>
+      </div>
+    </div>
+    <script>
+      let currentSlide = 0;
+      const slides = document.querySelectorAll('.slide');
+
+      function showSlide(slideIndex) {
+        slides[currentSlide].style.display = 'none';
+        slides[slideIndex].style.display = 'block';
+        currentSlide = slideIndex;
+      }
+
+      function changeSlide(direction) {
+        let newSlide = (currentSlide + direction + slides.length) % slides.length;
+        showSlide(newSlide);
+      }
+
+      // Show the first slide initially
+      showSlide(0);
+      showSlide(1);
+      showSlide(2);
+    </script>
+  </footer>
+</body>
+
+</html>
